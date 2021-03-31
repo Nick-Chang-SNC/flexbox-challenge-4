@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 21px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+span {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 3em 0;
+  max-width: 1128px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  margin: 0 auto;
+}
+
+.col + .col {
+  margin-left: 2em;
+}
+
+.banner-1 {
+  background-color: #F3EED9;
+  min-height: 660px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-1__text {
+  text-align: center;
+}
+
+.banner-1__span {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.banner-1__title {
+  color: #824936;
+}
+
+.banner-2__title {
+  text-align: center;
+  color: #824936;
+}
+
+.banner-2__text {
+  width: 49%;
+}
+
+.banner-3 {
+  background-color: #222C2A;
+}
+
+.banner-4 {
+  background-color: #824936;
+}
+
+.banner-text {
+  color: white;
+  width: 49%;
+}
+
+.banner-img {
+  width: 49%;
+}
