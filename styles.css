@@ -70,6 +70,7 @@ p {
 
 .banner-1__span {
   text-transform: uppercase;
+  letter-spacing: 10px;
 }
 
 .banner-1__title {
@@ -109,13 +110,14 @@ p {
 }
 
 @media (max-width: 425px) {
-  h2 {
-    margin-top: .75em;
+
+  p {
+    text-align: center;
   }
 
   .container {
     width: 83%;
-    padding: 1.25em 0;
+    padding: 1.5em 0;
   }
 
   .row {
