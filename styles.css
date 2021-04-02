@@ -107,3 +107,31 @@ p {
 .banner-4__img {
   max-width: 100%;
 }
+
+@media (max-width: 425px) {
+  h2 {
+    margin-top: .75em;
+  }
+
+  .container {
+    width: 83%;
+    padding: 1.25em 0;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin: 0;
+  }
+
+  .banner-3__title,
+  .banner-4__title {
+    text-align: center;
+  }
+}
